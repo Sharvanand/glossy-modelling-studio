@@ -1,0 +1,65 @@
+header {
+  background: url(images/model.jpg);
+  background-size: cover;
+  background-position: top;
+  min-height: 700px;
+}
+
+.nav-ul {
+  letter-spacing: 0.5rem;
+  text-transform: uppercase;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 0.6rem;
+}
+@media screen and (max-width: 670px) {
+  header {
+    min-height: 500px;
+  }
+}
+.section {
+  margin-top: 4rem;
+}
+.model-para {
+  margin-top: 3rem;
+}
+.model-para h5 {
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 0.5rem;
+  font-size: 1.3rem;
+}
+.model-para p {
+  text-transform: uppercase;
+  letter-spacing: 0.25rem;
+  line-height: 2.5;
+  font-size: 1rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  margin-top: 2rem;
+}
+.parallax-container {
+  height: 400px;
+}
+.para-style {
+  text-transform: uppercase;
+  letter-spacing: 0.25rem;
+  line-height: 2.5;
+  font-size: 0.9rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  margin-top: 2rem;
+}
+.heading-style {
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 0.5rem;
+  font-size: 1.3rem;
+}
+.tabs .indicator {
+  background-color: #bdbdbd;
+}
+.tabs .tab a:focus,
+.tabs .tab a:focus.active {
+  background-color: transparent;
+}
